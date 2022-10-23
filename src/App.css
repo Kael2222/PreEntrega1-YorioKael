@@ -35,3 +35,8 @@ li{
   margin-top: 50px;
   font-style: oblique;
 }
+
+.contador{
+  display: flex;
+  text-align: center;
+}
