@@ -12,6 +12,7 @@ const Navbar = () => {
         <ul>
           <NavLink className="links" to="/categoria/Internacional"> Internacional</NavLink>
           <NavLink className="links" to="/categoria/Nacional">Nacional</NavLink>
+          <NavLink className="links" to="/contacto">Contacto</NavLink>
         </ul>
         <Link to="/cart">
           <CartWidget/>
