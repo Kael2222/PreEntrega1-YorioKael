@@ -29,7 +29,7 @@ const App = () => {
                element= {<ItemListContainer/>} 
                />
                <Route path='/detail/:idDisco' element= { <ItemDetailContainer />} />
-               <Route path='/CartWidget' element= {<CartWidget/>} />
+               <Route path='/Cart' element= {<CartWidget/>} />
                <Route path='/Contacto' element={<Form />} /> 
             </Routes>
             <Footer />

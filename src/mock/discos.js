@@ -42,7 +42,7 @@ export const discos = [
    {
       id:"6",
       img: "https://i.pinimg.com/originals/33/ff/92/33ff92acb79c1d62260b6a96b8fdf859.jpg",
-      title: "Sui Gneris - Vida",
+      title: "Sui Generis - Vida",
       precio: 5000,
       stock: 10,
       categoria:"Nacional"
@@ -58,7 +58,7 @@ export const discos = [
    {
       id:"8",
       img: "https://i.pinimg.com/originals/7b/72/74/7b7274c22fdcf4cbecd794b639182405.jpg",
-      title: "Virus - Superfiies de placer",
+      title: "Virus - Superficies de placer",
       precio: 5500,
       stock: 7,
       categoria:"Nacional"

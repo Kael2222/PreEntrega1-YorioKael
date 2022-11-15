@@ -11,11 +11,24 @@ const Provider = (props) => {
 
     const isInCart = (id) => cart.find(product => product.id === id) ? true : false;
 
-    const removerProduct = (id) = setCart(cart.filter(product => product.id !== id));
+    const removerProduct = (id) => setCart(cart.filter(product => product.id !== id));
 
-    const agregarAlCarrito = 
+    const agregarAlCarrito = (data, cantidad) => {
+      
+        if (isInCart(data.id)) {
+            setCart(cart.map(disco => {
+                if(disco.id === data.id) return {...disco, cantidad:disco.cantidad + cantidad  }
+                else return disco
+            }))
+        }
 
-    
+
+        else{
+            setCart([...cart, {...data,cantidad}])
+        }
+    }
+
+    console.log(cart)
 
     return (
         <CartContext.Provider value={{
